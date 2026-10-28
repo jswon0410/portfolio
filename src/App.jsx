@@ -84,7 +84,7 @@ function App() {
           <div className="hero-copy">
             <p className="eyebrow"><span className="status-dot" /> A LITTLE ABOUT ME, A LOT TO EXPLORE</p>
             <h1 id="hero-title">작은 호기심이,<br />나만의 <span className="underlined">결과물로.</span></h1>
-            <p className="hero-description">배우고, 시도하고, 만들어 가는 중입니다.<br />나의 관심사와 도전이 쌓이는 이곳에 오신 걸 환영해요.</p>
+            <p className="hero-description">안녕하세요, 원준서입니다.<br />호기심이 많고 새로운 것을 배우는 사람입니다.</p>
             <div className="hero-actions">
               <a className="button button-primary" href="#/portfolio">포트폴리오 보기 <span aria-hidden="true">↗</span></a>
               <a className="text-link" href="#/about">어떤 사람인가요? <span aria-hidden="true">→</span></a>
@@ -109,18 +109,18 @@ function App() {
         </section>
         <div className="section-divider page-width"><span>SCROLL TO EXPLORE</span><span aria-hidden="true">↓</span></div>
         <section className="about-section page-width" id="about" aria-labelledby="about-title">
-          <div className="section-heading"><p className="eyebrow">01 / ABOUT ME</p><h2 id="about-title">안녕하세요,<br />이런 사람입니다<span>.</span></h2></div>
+          <div className="section-heading"><p className="eyebrow">01 / ABOUT ME</p><h2 id="about-title">안녕하세요,<br />원준서입니다<span>.</span></h2></div>
           <div className="about-content">
-            <span className="example-label">자기소개를 채워 보세요</span>
-            <h3>나를 가장 잘 설명하는<br />한 문장은 무엇인가요?</h3>
-            <p>좋아하는 것, 요즘 배우는 것, 앞으로 해 보고 싶은 일을 소개해 주세요. 거창한 경험보다 나만의 관심사와 생각이 좋은 시작이 됩니다.</p>
-            <div className="interest-tags"><span># 나의 관심사</span><span># 배우는 중</span><span># 다음 도전</span></div>
+            <span className="example-label">나를 소개합니다</span>
+            <h3>호기심이 많고<br />새로운 것을 배우는 사람입니다.</h3>
+            <p>음악 듣기와 유튜브 보기를 좋아합니다. 맡은 일을 꾸준히 해내는 것이 저의 장점입니다.</p>
+            <div className="interest-tags"><span># 음악 듣기</span><span># 유튜브 보기</span><span># 꾸준함</span></div>
             <a className="text-link about-more" href="#/about">자기소개 보기 <span aria-hidden="true">→</span></a>
           </div>
         </section>
         <section className="work-invitation">
           <div className="page-width work-invitation-inner">
-            <div><p className="eyebrow">EXPLORE MY WORK</p><h2>어떤 것들을 만들었을까요<span>?</span></h2><p className="invitation-description">생각을 결과물로 옮겨 본 이야기를 만나 보세요.</p></div>
+            <div><p className="eyebrow">MY NEXT CHAPTER</p><h2>앞으로 채워 갈 이야기<span>.</span></h2><p className="invitation-description">활동과 작품은 나중에 추가할 예정입니다. 지금은 실습용 프로젝트 예시를 볼 수 있어요.</p></div>
             <a className="button button-primary" href="#/portfolio">포트폴리오 목록 보기 <span aria-hidden="true">↗</span></a>
           </div>
         </section>
@@ -130,28 +130,30 @@ function App() {
           <div className="about-page-heading">
             <p className="eyebrow">MY STORY / ABOUT ME</p>
             <h1 id="about-page-title" tabIndex={-1}>자기소개<span>.</span></h1>
-            <p className="list-description">좋아하는 것과 배우는 것, 그리고 앞으로의 나에 대한 이야기.</p>
+            <p className="list-description">원준서의 관심사와 장점, 그리고 앞으로의 목표를 소개합니다.</p>
           </div>
           <div className="about-profile">
             <div className="about-profile-art" aria-hidden="true"><span>✳</span><p>STILL LEARNING,<br />ALWAYS GROWING.</p><div>나만의 속도로,<br />나만의 방향으로.</div></div>
             <div className="about-content">
-              <span className="example-label">나의 이야기로 채워 보세요</span>
-              <h2>안녕하세요,<br />이런 사람입니다<span>.</span></h2>
-              <p>나를 가장 잘 설명하는 한 문장으로 시작해 보세요. 좋아하는 것, 요즘 배우는 것, 앞으로 해 보고 싶은 일을 자신만의 이야기로 소개해 주세요.</p>
+              <span className="example-label">나를 소개합니다</span>
+              <h2>안녕하세요,<br />원준서입니다<span>.</span></h2>
+              <p>호기심이 많고 새로운 것을 배우는 사람입니다.</p>
               <dl className="about-details">
-                <div><dt>관심 있는 것</dt><dd>시간 가는 줄 모르고 빠져드는 주제나 취미를 적어 주세요.</dd></div>
-                <div><dt>요즘 배우는 것</dt><dd>새롭게 배우고 있거나 도전하고 있는 것을 소개해 주세요.</dd></div>
-                <div><dt>앞으로의 목표</dt><dd>만들어 보고 싶은 것, 이루고 싶은 작은 목표를 적어 주세요.</dd></div>
+                <div><dt>관심사와 취미</dt><dd>음악 듣기, 유튜브 보기</dd></div>
+                <div><dt>내가 잘하는 것</dt><dd>맡은 일을 꾸준히 해내기</dd></div>
+                <div><dt>배우고 싶은 것</dt><dd>아직 찾는 중입니다.</dd></div>
+                <div><dt>활동과 작품</dt><dd>나중에 추가할 예정입니다.</dd></div>
+                <div><dt>앞으로의 목표</dt><dd>맡은 일을 끝까지 해내는 습관 기르기</dd></div>
               </dl>
-              <a className="button button-primary" href="#/portfolio">포트폴리오 보기 <span aria-hidden="true">↗</span></a>
+              <a className="button button-primary" href="#/portfolio">포트폴리오 예시 보기 <span aria-hidden="true">↗</span></a>
             </div>
           </div>
         </section>}
         {isPortfolioPage && <section className="portfolio-section portfolio-page" aria-labelledby="portfolio-title">
           <div className="page-width">
             <a className="text-link list-back" href="#home"><span aria-hidden="true">←</span> 홈으로 돌아가기</a>
-            <div className="portfolio-heading"><div><p className="eyebrow">MY PORTFOLIO / SELECTED WORK</p><h1 id="portfolio-title" tabIndex={-1}>포트폴리오<span>.</span></h1><p className="list-description">작은 호기심에서 시작한 작업들을 모았습니다.</p></div><p>프로젝트 예시입니다.<br />직접 만든 작업으로 채워 보세요.</p></div>
-            <div className="list-summary"><span>전체 프로젝트</span><span>{projects.length.toString().padStart(2, '0')}</span></div>
+            <div className="portfolio-heading"><div><p className="eyebrow">MY PORTFOLIO / EXAMPLES</p><h1 id="portfolio-title" tabIndex={-1}>포트폴리오<span>.</span></h1><p className="list-description">활동과 작품은 나중에 추가할 예정입니다.</p></div><p>아래 프로젝트는 실습용 예시이며,<br />원준서의 실제 작품이 아닙니다.</p></div>
+            <div className="list-summary"><span>실습용 프로젝트 예시</span><span>{projects.length.toString().padStart(2, '0')}</span></div>
             <div className="project-grid">
               {projects.map((project) => (
                 <article className="project-card" key={project.number}>
@@ -177,7 +179,7 @@ function App() {
             <div className="detail-banner">
               <ProjectArtwork project={selectedProject} className="detail-art" />
               <div className="detail-overview">
-                <span className="example-label">실습용 예시</span>
+                <span className="example-label">실습용 예시 · 실제 작품이 아닙니다</span>
                 <h2>프로젝트 소개</h2>
                 <p>{selectedProject.overview}</p>
                 <p className="detail-example-note">소개와 과정은 예시입니다. 직접 만든 프로젝트의 내용과 이미지로 바꿔 보세요.</p>
